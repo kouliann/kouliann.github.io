@@ -1,0 +1,692 @@
+/*Inicio de los Juegos*/
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    body{
+        margin: 0%;
+        padding: 0%;
+        line-height: 1.2;
+    }
+
+    
+
+    :root{
+        --primary-color: #243642;
+        --secundary-color: #387478;
+        --pink:#629584;
+        --peach: #efece7;
+        --white:#ffffff;
+        --black:black;
+        --grey:gray;
+
+        --ancho:200px;
+        --largo:200px;
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    /*footer*/
+    footer a{
+        text-decoration: none;
+        color: var(--peach);
+
+    }
+
+    footer a:hover {
+        color: var(--secundary-color);
+    
+    }
+
+    footer{
+        display: grid; 
+        align-content: center;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;  
+        padding: 2%;
+        padding-top: 5%;
+        background-color: var(--primary-color);
+        width: 100%;
+        height: auto;
+    }
+
+    footer li{
+        display: flex;
+        padding: 10px;
+    }
+
+    .msl{
+
+        width: 300px;
+        height: auto;
+    }
+
+    .listas{
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /*fin footer*/
+
+    .comienzo{
+        display: grid;
+        align-content: center;
+        gap: 10px;
+        padding: 10%;
+        width: 100%;
+        height: 70%;
+        background-image: url(/images/juegoss.jpg);
+        text-align: center;
+
+    }
+    .comienzo h1{
+        text-shadow: #000 1px 0 8px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    
+    .comienzo p{
+      text-shadow: #000 1px 0 8px;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+
+    .menujuegos{
+        justify-content: center;
+        padding: 5%;
+        width: 100%;
+        height: auto;
+        grid-template-columns: auto auto auto ;
+        text-decoration: none;
+        
+    }
+
+    .Juegos{
+        justify-content: center;
+        margin: auto;
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 30px;
+        padding: 30px;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+
+    
+    }
+
+    .itemj1{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/Fondo\ de\ la\ rueda\ de\ la\ fortuna\ Ilustración\ de\ la\ ruleta\ de\ la\ suerte\ del\ vector\ Concepto\ de\ casino\ en\ línea\ _\ Vector\ Premium.jpeg);
+
+    }
+
+    .itemj2{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/aros.png);
+    }
+
+    .itemj3{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/vector-globo-explotado-aislado-fondo-blanco-arte-clip-globo-explosivo-vector-plano-dibujos-animados_893800-756.avif);
+    }
+
+    .item4{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/Anotación\ 2025-01-07\ 192056.png);
+    }
+
+    .item5{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/quien_es_ese_pokemon__who_s_that_poke___by_shikomt_by_shikomt_dbf1jrd-fullview.jpg);
+    }
+
+    .item6{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/Anotación\ 2025-01-07\ 215355.png);
+    }
+
+    .item7{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/three-dices-isolated-on-white-background-illustration-vector.jpg);
+    }
+
+    .item8{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/maxresdefault.jpg);
+    }
+
+    .item9{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/numeros.png);
+    }
+
+    .item10{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/tragaperras.jpg);
+    }
+
+    .item11{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/tricky-cups-memory-game.png);
+    }
+
+    .item12{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/143838920-frasco-de-vidrio-con-bolas-de-caramelos-dulce-confitería-icono-aislado.jpg);
+    }
+
+    .item13{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/Fortune_Teller.png);
+    }
+
+    .item14{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        width: var(--ancho);
+        height: var(--largo);
+        background-image: url(/images/dardos.png);
+    }
+    .item15{
+        border:2px  solid var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        height:var(--largo);
+        width: var(--ancho);
+        background-image: url(/images/cartas.jpg);
+    }
+
+    .names{
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .mjugo{
+        text-align: center;
+        text-decoration: none;
+        height:auto;
+        width: var(--ancho);
+  
+    }
+
+
+/*Fin pagina principal*/
+
+/*Ruleta*/
+    :root{
+        --escala: 400px;
+        --giroRuleta: 0deg;
+
+    }
+
+    #container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #ruleta{
+        position: relative;
+        box-sizing:content-box;
+        height: var(--escala);
+        width: var(--escala); 
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 50%;
+        overflow:hidden;
+        
+
+    }
+
+
+    #cartelGanador{
+        position: absolute;
+        left: -150px;
+        top: -40px;
+        background-color: rgb(228, 221, 221);
+        min-height: 55px;
+        width: 300px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        padding: 6px;
+
+    }
+    #marcador{
+        position: absolute;
+        z-index: 10;
+        top: -20px;
+        background-color:rgb(228, 221, 221);
+        height: 100px;
+        width: 5px;
+        pointer-events: none;
+        border-radius: 7px;
+    }
+
+    
+    #sortear{
+        position: absolute;
+        background-color: var(--peach);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: calc(var(--escala) / 2 - 60px / 2 );
+        left: calc(var(--escala) / 2 - 60px / 2 );
+        z-index: 2;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+
+    .separador{
+        position: absolute;
+        left: calc(var(--escala) / 2 - 2px);
+        height: calc(var(--escala) / 2);;
+        width: 3px;
+        transform-origin: center bottom;
+        background-color: rgb(0, 0, 0);
+        z-index: 1;
+        border-radius: 2px;
+    }
+
+    .opcion{
+        position: absolute;
+        width:var(--escala );
+        height: var(--escala);
+    }
+
+    #apuesta{
+        text-align: center;
+        margin: 40px;
+        z-index: 1;
+
+    }
+
+    #resultado{
+        text-align: center;
+        margin: 40px;
+        z-index: 1;
+    }
+
+    .girar{
+        animation-name: girar;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.1, 0, 0.18, 0.99);
+
+    }
+
+    @keyframes girar {
+        100%{
+            transform: rotate(var(--giroRuleta));
+        }
+    }
+/*Fin de la Ruleta*/
+
+/*Akinator*/
+    .bgAdivina{
+        background: rgb(173,255,225);
+        background: radial-gradient(circle, rgba(173,255,225,1) 0%, rgba(113,172,230,1) 100%);
+    }
+
+    .categorias{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+        height: auto;
+        width: 100%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+
+    .descripcion{
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        height: auto;
+        margin-top: 5%;
+        margin-right: 35%;
+        margin-left: 35%;
+        
+    }
+
+    #descripcion{
+        margin-top: 40px;
+        padding: 50px;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #resultado{
+        text-align: center;
+        font-size: 20px;
+    }
+
+/*Fin Akinator*/
+
+    .cuelpo{
+        background-image: url(/images/bg\ wood.jpg);
+        padding-top: 10%;
+        
+    }
+    #menus{
+        display: flex;
+        flex-direction: column column;
+        width: 100%;
+        height: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        gap: 5%;
+
+    }
+
+    .mnu1, .mnu2{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: auto;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        border: 10px solid rgb(94, 40, 21);
+        background: rgb(255,195,126);
+        background: linear-gradient(0deg, rgba(255,195,126,1) 0%, rgba(255,216,148,1) 30%, rgba(255,216,148,1) 70%, rgba(255,195,126,1) 100%);
+        border-radius: 10px;
+    }
+    p{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .cuadro{
+        justify-content: center;
+        text-align: center;
+        padding: 2.5%;
+        width: 30%;
+        height: auto;
+        margin-left: 35%;
+        margin-right: 35%;
+        font-size: 20px;
+        border: 10px solid rgb(94, 40, 21);
+        background: rgb(255,195,126);
+        background: linear-gradient(0deg, rgba(255,195,126,1) 0%, rgba(255,216,148,1) 30%, rgba(255,216,148,1) 70%, rgba(255,195,126,1) 100%);
+        border-radius: 10px;
+    }
+    .foto{
+        width: 25%;
+        height: auto;
+    }
+
+
+    /*Fin chef*/
+    /*Ahorcado*/
+
+    .bgAhorcado{
+        background-color: var(--pink);
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .contenedor{
+        margin-top: 50%;
+        width: 850px;
+        background-color:white;
+        display: flex;
+        align-items: flex-end;
+        gap: 70px;
+        padding: 60px 40px;
+        border-radius: 10px;
+        margin: 12%;
+    }
+
+    .hangman-box img{
+        max-width:270px ;
+
+    }
+
+    .hangman-box h1{
+        font-size: 1.45rem;
+        margin-top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .wordDisplay{
+        display: flex;
+        gap:5px;
+        list-style: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        padding-left: 0;
+    }
+
+    .wordDisplay .letra{
+        width: 28px;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom:40px ; 
+        border-bottom: 3px solid black;
+
+
+    }
+
+    .wordDisplay .letra .adivinada{
+        border-color: transparent;
+        margin: -40px 0 35px
+    }
+
+    .gameBox h4{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 15px;
+
+    }
+
+    .gameBox h4 b {
+        font-weight: 600;
+    }
+
+    .gameBox .teclado{
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    :where(.gameModal, .teclado) button{
+         color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor:pointer;
+        outline: none;
+        background: var(--pink);
+        border: none;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .teclado button {
+       
+        width: auto;
+        padding: 7px;
+    }
+
+    .teclado button[disabled]{
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+    :where(.gameModal, .teclado) button:hover{
+        background-color: var(--secundary-color);
+    }
+
+    .gameModal{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.6);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity:0;
+        pointer-events: none;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.4s ease;
+    }
+
+    .gameModal.show{
+        opacity: 1;
+        pointer-events: autos;
+    }
+
+    .gameModal .content{
+        background-color: white;
+        max-width: 420px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px;
+    
+    
+    
+    }
+    .gameModal img{
+        max-width: 130px;
+        margin-bottom: 20px;
+    }
+
+    .gameModal h4{
+        font-size: 1.53rem;
+    }
+
+    .gameModal p {
+        font-size: 1.15rem;
+        margin: 15px 0 30px;
+        font-weight: 500;
+    }
+
+    .gameModal p b{
+        color:  var(--secundary-color);
+        font-weight: 600;
+    }
+
+    .gameModal button{
+        padding: 12px 23px ;
+    }
+

@@ -1,0 +1,205 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body{
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.2;
+}
+
+:root{
+    --primary-color: #243642;
+    --secundary-color: #387478;
+    --pink:#629584;
+    --peach: #E2F1E7;
+    --white:#ffffff;
+    --black:black;
+    --grey:gray;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--peach);
+
+}
+
+footer a:hover {
+    color: var(--secundary-color);
+  
+}
+
+.comienzo{
+    display: grid;
+    align-content: center;
+    gap: 10px;
+    padding: 10%;
+    width: 100%;
+    height: 70%;
+    background-image: url(/images/Diseño\ sin\ título\ \(1\).png);
+
+}
+
+.comienzo h1{
+    text-shadow: #000 1px 0 8px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+.servicios{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto ;
+    gap: 50px;
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 100px;
+    text-decoration: none;
+   
+}
+
+.item1{
+    
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 500px;
+    justify-content: center;
+    background-image: url(/images/juegos\(1\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item2{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 500px;
+    justify-content: center;
+    background-image: url(/images/Tiendas.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item3{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 500px;
+    justify-content: center;
+    background-image: url(/images/exposicion\(2\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item1:hover{
+    
+    background-blend-mode: multiply;
+    background-size: 620px;
+}
+
+.item2:hover{
+    background-blend-mode: multiply;
+    background-size: 620px;
+}
+
+.item3:hover{
+    background-blend-mode: multiply;
+    background-size: 620px;
+
+}
+
+.listas{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.msl{
+
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    display: grid; 
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;  
+    padding: 10px;
+    padding-top: 50px;
+    margin-top: 80px;
+    background-color: var(--primary-color);
+}
+
+footer li{
+    display: flex;
+    padding: 10px;
+}
+
+
+/* Fin de la `pagina principal*/
+
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10%;
+    margin: 10%;
+    padding: auto;
+}
+.item{
+    background-color: rgb(223, 239, 250);
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.item p{
+    margin: 30px;
+    text-shadow: #ffffff 1px 0 8px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+
+.item h3{
+    text-shadow: #ffffff 1px 0 8px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+

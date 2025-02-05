@@ -1,0 +1,805 @@
+@media only screen and (max-width: 1024px) {
+/*pagina princpal*/
+
+.comienzo {
+    padding-top:20% ;
+}
+
+.comienzo h1{
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.servicios{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto ;
+    gap: 50px;
+    background-color: var(--white);
+    padding: 30px;
+    margin-top: 100px;
+    text-decoration: none;
+   
+}
+
+.item1{
+    
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 350px;
+    justify-content: center;
+    background-image: url(/images/juegos\(1\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item2{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 350px;
+    justify-content: center;
+    background-image: url(/images/Tiendas.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item3{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 350px;
+    justify-content: center;
+    background-image: url(/images/exposicion\(2\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item1:hover{
+    
+    background-blend-mode: multiply;
+    background-size: 400px;
+}
+
+.item2:hover{
+    background-blend-mode: multiply;
+    background-size: 400px;
+}
+
+.item3:hover{
+    background-blend-mode: multiply;
+    background-size: 400px;
+
+}
+
+.comienzo h1{
+    font-size: 50px;
+
+}
+
+.listas{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.msl{
+    width: 220px;
+    height: auto;
+}
+
+footer li{
+    display: flex;
+    padding: 10px;
+}
+
+/*Fin pagina princpal*/
+
+/*Seccion de los juegos*/
+
+/*Inicio de los Juegos*/
+
+.comienzo p{
+  text-shadow: #000 1px 0 8px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.menujuegos{
+
+    padding: 10%;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    text-decoration: none;
+    
+}
+
+.Juegos{
+    margin: auto;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.names{
+    justify-content: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto;
+    gap: 30px;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+.mjugo{
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    height:auto;
+    width: var(--ancho);
+
+}
+
+
+/*Fin pagina principal*/
+
+/*Ruleta*/
+
+#apuesta{
+    width: 30%;
+
+
+}
+/*Fin de la Ruleta*/
+
+.categorias{
+    width: 100%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+
+.descripcion{
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    
+}
+#descripcion{
+    margin-top: 40px;
+    padding: 50px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+#resultado{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Fin  de Adivina el personaje*/
+
+#menus{
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 5%;
+    
+}
+
+.mnu1, .mnu2{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+
+}
+
+.cuadro{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    font-size: 20px;
+}
+.foto{
+    width: 70%;
+    height: auto;
+}
+
+.cuelpo{
+    padding-top: 20%;
+    
+}
+/*Fin chef*/ 
+
+/*Fin de la seccion de los juegos*/
+}
+
+@media only screen and (max-width: 768px) {
+
+    .comienzo h1{
+        font-size: 50px;
+        text-align: center;
+
+    }
+
+    .listas{
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+    }
+    
+    footer{
+        
+        display: grid; 
+        align-content: center;
+        grid-template-columns: auto auto ;
+        gap: 5px;  
+        padding: 20px;
+        padding-top: 25px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .msl{
+        width: 250px;
+        height: auto;
+    }
+    
+    footer li{
+        display: flex;
+        padding: 10px;
+    }
+
+
+    
+    .item1{
+        
+        border:1px  solid var(--secundary-color);
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        color: var(--primary-color);
+        text-decoration: none;
+        height: 250px;
+    
+    }
+    
+    .item2{
+        border:1px  solid var(--secundary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        color: var(--primary-color);
+        text-decoration: none;
+        height: 250px;
+    
+    }
+    
+    .item3{
+        border:1px  solid var(--secundary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        color: var(--primary-color);
+        text-decoration: none;
+        height: 250px;
+
+    
+    }
+ 
+    
+    /*Pagina de Juegos*/
+
+    .menujuegos{
+
+        width: 100%;
+        height: auto;
+        grid-template-columns: auto;
+        text-decoration: none;
+        
+    }
+    
+    .Juegos{
+        margin: auto;
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .names{
+        justify-content: center;
+        display: grid;
+        align-content: center;
+        margin: auto;
+        grid-template-columns: auto;
+        gap: 30px;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+    }
+
+    /*Fin de la pagina de juegos*/
+
+
+    /*Akinator*/
+
+    .categorias{
+        width: 100%;
+        margin-right: 15%;
+        margin-left: 15%;
+        
+    }
+    
+    .descripcion{
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        
+    }
+     
+    #descripcion{
+        padding: 10px;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        font-size: 15px;
+    
+    }
+    
+    #resultado{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    /*Chef*/
+
+    #menus{
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 5%;
+        
+    }
+    
+    .mnu1, .mnu2{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 5%;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+    
+    }
+    
+    .cuadro{
+        justify-content: center;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: auto;
+        font-size: 20px;
+    }
+    .foto{
+        width: 70%;
+        height: auto;
+    }
+    
+    .cuelpo{
+        padding-top: 20%;
+        
+    }
+    /*Fin chef*/
+
+    /*Ahorcado*/
+
+
+.contenedor{
+    flex-direction: column;
+    padding: 30px 15px;
+    align-items: center;
+    margin-top: 25%;
+}
+.hangman-box img{
+    max-width:200px ;
+
+}
+
+.hangman-box h1{
+    display: none;
+    
+}
+
+
+
+/*Fin Ahorcafo*/
+
+    .expo{
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+}
+
+@media only screen and (max-width: 425px) {
+/*pagina princpal*/
+
+.comienzo{
+    gap: 10px;
+    padding: 10%;;
+    margin-top: 80px;
+    background-position: center;
+    
+}
+
+.comienzo h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.comienzo p{
+    font-size: 25px;
+}
+
+.servicios{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto ;
+    gap: 50px;
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 100px;
+    text-decoration: none;
+   
+}
+
+.item1{
+    
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 250px;
+    justify-content: center;
+    background-image: url(/images/juegos\(1\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item2{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 250px;
+    justify-content: center;
+    background-image: url(/images/Tiendas.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item3{
+    border:1px  solid var(--secundary-color);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 250px;
+}
+
+.item1:hover{
+    
+    background-blend-mode: multiply;
+    background-size: 310px;
+}
+
+.item2:hover{
+    background-blend-mode: multiply;
+    background-size: 310px;
+}
+
+.item3:hover{
+    background-blend-mode: multiply;
+    background-size: 310px;
+
+}
+
+.listas{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer{
+    
+    display: grid; 
+    align-content: center;
+    grid-template-columns: auto ;
+    gap: 5px;  
+    padding: 20px;
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.msl{
+    width: 200px;
+    height: auto;
+}
+
+footer li{
+    display: flex;
+    padding: 7px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2%;
+    margin: 50%;
+    padding: 5px;
+}
+.item{
+    padding: 15px;
+}
+
+.item p{
+    margin: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Fin pagina princpal*/  
+
+/*Seccion de los juegos*/
+
+.menujuegos{
+
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto auto auto;
+    text-decoration: none;
+    
+}
+
+.Juegos{
+    margin: auto;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto ;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+.names{
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    margin: auto;
+    grid-template-columns: auto;
+    gap: 30px;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+
+.mjugo{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height:auto;
+    width: var(--ancho);
+
+}
+
+
+/*Fin pagina principal*/
+
+/*Ruleta*/
+:root{
+    --escala: 270px;
+}
+
+
+#apuesta{
+    width: 50%;
+
+}
+
+/*Fin de la Ruleta*/
+
+/*Akinator*/
+.categorias{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.descripcion{
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5px;
+    
+}
+ 
+#descripcion{
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#resultado{
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Fin Akinator*/
+
+/*chef*/
+
+
+#menus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 5%;
+    
+}
+
+.mnu1, .mnu2{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+
+}
+
+.cuadro{
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    font-size: 15px;
+}
+.foto{
+    width: 90%;
+    height: auto;
+}
+
+.cuelpo{
+    padding-top: 30%;
+    
+}
+
+
+/*fin chef*/
+
+
+
+
+
+/*Fin de la seccion de los juegos*/
+
+/*tiendas*/
+.menuTiendas{
+    text-align: left;
+    margin:auto ;
+    margin-top: 100px;
+    width: 90%;
+    height: auto;
+    
+}
+
+#tiendas, #productos, #precio, #stock{
+
+    list-style: none;
+    padding: 40px;
+    width:100%;
+    height: auto;
+    font-size: 22px;
+    
+}
+
+#ver{
+    align-items:center ;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.Htienda{
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.tienda{
+    text-align: left;
+    margin:auto ;
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+}
+
+/*fin tiendas*/
+
+.expo{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+}
