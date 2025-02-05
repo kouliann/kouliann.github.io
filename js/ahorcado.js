@@ -47,7 +47,6 @@ const resetearJuego = () => {
 function palabraRandom() {
     const {palabra} = palabras[Math.floor(Math.random()*palabras.length)];
     currentWord = palabra;
-    console.log(palabra);
     resetearJuego()
 }
 
